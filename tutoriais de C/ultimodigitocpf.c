@@ -61,6 +61,8 @@ int main() {
     printf("Digitos verificadores calculados: %d%d\n", digito1, digito2);
      for(i=0;i<11;i++){
     	printf("%d",dig[i]);
+    	if(i==2 ||i==5) printf(".");
+    	if(i==8) printf("-");
 	}
 
     return 0;
