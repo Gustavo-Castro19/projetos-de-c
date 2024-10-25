@@ -19,7 +19,7 @@ int CalculoCpf(int cpf[], int tamanho) {
             multi[j] = 11 - j;
         }
     } else {
-        return -1; // Retorna um valor de erro para tamanhos inválidos
+        return -1; // Retorna um valor de erro para tamanhos invÃ¡lidos
     }
 
     // Calcula a soma com os pesos
@@ -29,19 +29,19 @@ int CalculoCpf(int cpf[], int tamanho) {
 
     soma = 11 - (soma % 11);
 
-    // Se o resultado for 10 ou 11, considera como 0 (dígito verificadores)
+    // Se o resultado for 10 ou 11, considera como 0 (dÃ­gito verificadores)
     return (soma >= 10) ? 0 : soma; 
 }
 
 int main() {
     char cpf[12]; // CPF como string
-    int dig[11]; // Para armazenar os dígitos do CPF
-    int digito1, digito2, i; // Variáveis para os dígitos verificadores
+    int dig[11]; // Para armazenar os dÃ­gitos do CPF
+    int digito1, digito2, i; // VariÃ¡veis para os dÃ­gitos verificadores
 
     printf("Digite os 9 primeiros digitos do seu CPF (apenas numeros): ");
-    scanf("%11s", cpf); // Lê até 11 caracteres
+    scanf("%11s", cpf); // LÃª atÃ© 11 caracteres
 
-    // Converte os 9 primeiros dígitos do CPF em inteiros
+    // Converte os 9 primeiros dÃ­gitos do CPF em inteiros
     for (i = 0; i < 9; i++) {
         if (cpf[i] < '0' || cpf[i] > '9') {
             printf("Erro:CPF invalido.\n");
@@ -50,18 +50,18 @@ int main() {
         dig[i] = cpf[i] - '0'; // Converte cada caractere em inteiro
     }
 
-    // Calcula os dígitos verificadores
+    // Calcula os dÃ­gitos verificadores
     digito1 = CalculoCpf(dig, 9);
-    dig[9] = digito1; // Armazena o primeiro dígito verificador
+    dig[9] = digito1; // Armazena o primeiro dÃ­gito verificador
     digito2 = CalculoCpf(dig, 10);
-    dig[10] = digito2; // Armazena o segundo dígito verificador
+    dig[10] = digito2; // Armazena o segundo dÃ­gito verificador
     cpf[10] = dig[9];
     cpf[11] = dig[10];
-    // Exibe os dígitos verificadores calculados
+    // Exibe os dÃ­gitos verificadores calculados
     printf("Digitos verificadores calculados: %d%d\n", digito1, digito2);
-    printf("o CPF eh: %s",cpf);
-
-   
+     for(i=0;i<11;i++){
+    	printf("%d",dig[i]);
+	}
 
     return 0;
 }
