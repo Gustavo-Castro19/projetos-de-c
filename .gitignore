@@ -1,0 +1,211 @@
+# Prerequisites
+*.d
+
+# Compiled Object Files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker Output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Static Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Dynamic Libraries / Shared Objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executable Files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ncb
+*.opt
+*.plg
+
+# Kernel Module Compilation Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Build Directories
+/build/
+/bin/
+/debug/
+/release/
+/dist/
+/out/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# Generated Files
+*.manifest
+*.mk
+*.dep
+*.coverage
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+*.rbc
+.ruby-version
+/.bundle/
+/vendor/bundle
+
+# Go
+*.exe
+*.test
+*.out
+
+# Rust
+/target/
+
+# C#
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.pid
+*.lock
+
+# Git
+*.patch
+*.diff
+*.rej
+*.smerge/
+
+# Other
+*.env
+*.key
+*.crt
+*.pem
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
