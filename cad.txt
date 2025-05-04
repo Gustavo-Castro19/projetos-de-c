@@ -1,2 +1,5 @@
 matricula, nome
 1010 carlo lanchalote
+1010 george arad
+1010 carlo 
+1010 re
